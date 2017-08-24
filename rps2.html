@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="javascript" href="assets/rps.js">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+    <h1>Two Player Rock Paper Scissors!</h1>
+    <div class= "game">
+        <div class="user1">
+            <div id="pics">
+                <button id="br"><img src="assets/rock.jpg" alt="rock" id="rock"></button>
+                <button id="bp"><img src="assets/paper.jpg" alt="paper" id="paper"></button>
+                <button id="bs"><img src="assets/scissors.jpg" alt="scissors" id="scissors"></button>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <span id="results"></span>
+            <div id="wins">Wins:<span id="wins"></span></div>
+            <div id="losses">Losses:<span id="losses"></span></div>
+            <div id="draws">Draws:<span id="draws"></span></div>
+        </div>
+        <div class="user2">
+            <div id="pics2">
+                <button id="br2"><img src="assets/rock.jpg" alt="rock" id="rock2"></button>
+                <button id="bp2"><img src="assets/paper.jpg" alt="paper" id="paper2"></button>
+                <button id="bs2"><img src="assets/scissors.jpg" alt="scissors" id="scissors2"></button>
+            </div>
+        </div>
+    </div>    
+    <div id="wrapper">
+    <div id="menu">
+        <p class="welcome">Welcome: <b></b></p>
+        <div style="clear:both"></div>
+    </div>
+     
+    <div id="chatbox"></div>
+     
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="usermsg" size="63" />
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+    </form>
+    </div>
+</body>
+</html>
